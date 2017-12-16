@@ -1,0 +1,61 @@
+	*{
+			font-size:14px;
+		}
+		body {
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			font-family: 'ubunturegular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-weight: 400;
+			padding:20px;
+			font-size:14px;
+			margin:0;
+		}
+		h2 {
+			font-size:14px;
+			font-weight:bold;
+			margin:0;
+			margin-bottom:15px;
+		}
+		.tagNameArea{
+			text-align:right;
+		}
+		.settingButton{
+			background-color:#eee;
+		}
+		.titleApp{
+			background-color:#3396c9	;
+			
+			border-bottom:#15719f  solid 3px;
+			padding:6px;
+			border-radius:6px;
+			margin:1px;
+			font-size:14px;
+			color:#fff;
+			
+		}		
+.tree-node a{
+	text-decoration:none;
+	color:#333;
+	
+}
+
+a{
+		text-decoration:none;
+		color:#555;
+  }
+
+
+.easyui-linkbutton{
+			
+			background-color:#3396c9	;
+			font-size:12px;
+			border-bottom:#15719f  solid 3px;
+			border-radius:4px;
+			color:#fff;
+		}
+.easyui-linkbutton:hover{
+			
+			background: #15719f;
+      	border-bottom:#3396c9 solid 3px;
+		color:#fff;
+		}
