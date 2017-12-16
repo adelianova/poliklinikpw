@@ -9,7 +9,17 @@ class User_m extends MY_Model {
 
     public function count_pasien()
     {
-    	$query = "SELECT COUNT(*) as total from TBL_PERIKSA where convert(varchar(10),tgl_periksa,112)='".date('Ymd')."'";
+    	$query = "SELECT COUNT(*) as pasien from TBL_PERIKSA where convert(varchar(10),tgl_periksa,112)='".date('Ymd')."'";
+    	return $this->db->query($query)
+    					->row();
+    }public function count_admin()
+    {
+    	$query = "SELECT COUNT(*) as admin from v_employee_all where position_code = '2.04.02.00.03'";
+    	return $this->db->query($query)
+    					->row();
+    }public function count_dokter()
+    {
+    	$query = "SELECT COUNT(*) as dokter from v_employee_all where position_code = '24.0001'";
     	return $this->db->query($query)
     					->row();
     }

@@ -142,12 +142,12 @@
 		<div class="container">
 			<div class="row">
 				<h2>DASHBOARD</h2>
-				<h4>Berikut adalah ... dalam bulan ini</h4>
+				<h4>Berikut adalah ... dalam hari ini</h4>
 				<div class="col-md-4 col-sm-4">
 					<div class="single-service">
 						<div class="single-service-img">
 							<div class="service-img">
-								<p><?php echo $pasien->total; ?></p>
+								<p><?php echo $dokter->dokter; ?></p>
 							</div>
 						</div>
 						<h3>DOKTER</h3>
@@ -157,7 +157,7 @@
 					<div class="single-service">
 						<div class="single-service-img">
 							<div class="service-img">
-								<p><?php echo $pasien->total; ?></p>
+								<p><?php echo $admin->admin; ?></p>
 							</div>
 						</div>
 						<h3>ADMIN</h3>
@@ -167,7 +167,7 @@
 					<div class="single-service">
 						<div class="single-service-img">
 							<div class="service-img">
-								<p><?php echo $pasien->total; ?></p>
+								<p><?php echo $pasien->pasien; ?></p>
 							</div>
 						</div>
 						<h3>PASIEN</h3>

@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/poliklinik1/';
+$config['base_url']	= 'http://localhost/poliklinikpw1/';
 
 /*
 |--------------------------------------------------------------------------

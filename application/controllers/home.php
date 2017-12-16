@@ -7,6 +7,8 @@ class Home extends MY_Controller {
     
     public function index() {
     	$data['pasien'] = $this->user_m->count_pasien();
+    	$data['admin'] = $this->user_m->count_admin();
+    	$data['dokter'] = $this->user_m->count_dokter();
 		$this->load->view('landing_page', $data);
     }
 }
