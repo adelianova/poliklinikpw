@@ -70,7 +70,6 @@ class User_m extends MY_Model {
 					"id":11,
 					"text":"Master",
 					 "iconCls":"icon-key",
-					"state":"open",
 					"children":[{
 						"id":111,
 						"text":"Dokter",
@@ -240,6 +239,7 @@ class User_m extends MY_Model {
 						"akses":true
 						
 							}]
+					
 				}]';
 	}	
 	

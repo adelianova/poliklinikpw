@@ -155,7 +155,7 @@
 		}
 	}
 	function cetakObat(){
-        PopupCenter("http://localhost/poliklinik1/index.php/obat/cetakObat","DATA OBAT","800","400");
+        PopupCenter("http://localhost/poliklinikpw1/index.php/obat/cetakObat","DATA OBAT","800","400");
     }
 	function PopupCenter(url, title, w, h) {
         // Fixes dual-screen position                         Most browsers      Firefox

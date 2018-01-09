@@ -16,13 +16,13 @@
 </head>
 <body class='login'>
 
-	<div class="logo"><img src="<?php echo base_url();?>asset/img/admin/logo_poli.png" class="pdam"></div>
+	<div class="logo"><img src="<?php echo base_url();?>asset/img/admin/judul.png" class="pdam"></div>
 	<div class="titleBox"><?echo @$judul;?></div>
-	<div class="box">
-		<br/>
-		
-		<form method='post' id='formLogin'>
+	<div class="box">		
+		<form method='post' id='formLogin' class="form">
+
 			<div class="inputArea">
+				<div class="head"> Silakan login untuk masuk ke sistem </div>
 				<input type="text" id="pengguna" name="pengguna" class="inputText" placeholder="NIP" autocomplete="off"/>
 				<input type="password" id="sandi" name="sandi" class="inputText" placeholder="Password" autocomplete="off"/>
 			</div>
@@ -34,7 +34,7 @@
 			</div>
 		</form>
 	</div>
-	<div class="footer">&copy; SIM PDAM Kota Malang</div>
+	<!-- <div class="footer">&copy; SIM PDAM Kota Malang</div> -->
 </body>
 </html>
 <script>

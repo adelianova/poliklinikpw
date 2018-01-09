@@ -161,7 +161,7 @@
 		}
 	}
     function cetakPasien(){
-        PopupCenter("http://localhost/poliklinik1/index.php/pasien/cetakPasien","DATA PASIEN","800","400");
+        PopupCenter("http://localhost/poliklinikpw1/index.php/pasien/cetakPasien","DATA PASIEN","800","400");
     }
 	function PopupCenter(url, title, w, h) {
         // Fixes dual-screen position                         Most browsers      Firefox

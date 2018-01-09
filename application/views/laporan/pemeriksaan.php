@@ -81,7 +81,7 @@
         var tgl_awal = $('#tgl_awal').datebox('getValue').replace("/","~").replace("/","~").replace("/","~").replace("/","~");
         var tgl_akhir = $('#tgl_akhir').datebox('getValue').replace("/","~").replace("/","~").replace("/","~").replace("/","~");
         var status_pasien = $('#status_pasien').combobox('getValue');
-        PopupCenter("http://localhost/poliklinik1/index.php/laporan_pemeriksaan/cetakLaporan/"+tgl_awal+"/"+tgl_akhir+"/"+status_pasien,"LAPORAN PEMERIKSAAN","800","400");
+        PopupCenter("http://localhost/poliklinikpw1/index.php/laporan_pemeriksaan/cetakLaporan/"+tgl_awal+"/"+tgl_akhir+"/"+status_pasien,"LAPORAN PEMERIKSAAN","800","400");
     }
 
     

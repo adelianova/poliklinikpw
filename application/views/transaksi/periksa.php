@@ -180,7 +180,7 @@
 	function cetakPeriksa(){
         var tgl_awal = $('#tgl_awal').datebox('getValue').replace("/","~").replace("/","~").replace("/","~").replace("/","~");
         var tgl_akhir = $('#tgl_akhir').datebox('getValue').replace("/","~").replace("/","~").replace("/","~").replace("/","~");
-        PopupCenter("http://localhost/poliklinik1/index.php/periksa/cetakPeriksa/"+tgl_awal+"/"+tgl_akhir,"DATA PEMERIKSAAN","800","400");
+        PopupCenter("http://localhost/poliklinikpw1/index.php/periksa/cetakPeriksa/"+tgl_awal+"/"+tgl_akhir,"DATA PEMERIKSAAN","800","400");
     }
 
     

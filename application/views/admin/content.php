@@ -35,9 +35,9 @@
     	
     </div>
 	<div region="west" split="true" title="Navigator" style="width:250px;" class='content_main'>
-	<a href="main" class="easyui-tree" style='padding:10px' animate="true" lines="true"> Dashboard </a>
+	<a href="main" style='padding:30px' animate="true" lines="true"> Dashboard </a> <br>
+	<a href="home" style='padding:30px' animate="true" lines="true"> Info </a>
 	<ul id='tree-menu' class="easyui-tree" style='padding:10px' animate="true" lines="true">
-	
 	</ul>
     </div>
     <div id="content" region="center" title=""  class='content_footer' style='overflow:hidden'> 

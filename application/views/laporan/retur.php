@@ -59,7 +59,7 @@
 	function cetakLaporan(){
         var tgl_awal = $('#tgl_awal').datebox('getValue').replace("/","~").replace("/","~").replace("/","~").replace("/","~");
         var tgl_akhir = $('#tgl_akhir').datebox('getValue').replace("/","~").replace("/","~").replace("/","~").replace("/","~");
-        PopupCenter("http://localhost/poliklinik1/index.php/laporan_retur/cetakLaporan/"+tgl_awal+"/"+tgl_akhir,"LAPORAN RETUR","800","400");
+        PopupCenter("http://localhost/poliklinikpw1/index.php/laporan_retur/cetakLaporan/"+tgl_awal+"/"+tgl_akhir,"LAPORAN RETUR","800","400");
     }
 	function PopupCenter(url, title, w, h) {
         // Fixes dual-screen position                         Most browsers      Firefox

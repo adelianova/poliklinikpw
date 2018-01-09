@@ -178,7 +178,7 @@
 	function cetakRegistrasi(){
         var tgl_awal = $('#tgl_awal').datebox('getValue').replace("/","~").replace("/","~").replace("/","~").replace("/","~");
         var tgl_akhir = $('#tgl_akhir').datebox('getValue').replace("/","~").replace("/","~").replace("/","~").replace("/","~");
-        PopupCenter("http://localhost/poliklinik1/index.php/registrasi/cetakRegistrasi/"+tgl_awal+"/"+tgl_akhir,"Data Registrasi","800","400");
+        PopupCenter("http://localhost/poliklinikpw1/index.php/registrasi/cetakRegistrasi/"+tgl_awal+"/"+tgl_akhir,"Data Registrasi","800","400");
     }
 
     
