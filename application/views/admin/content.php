@@ -59,8 +59,8 @@
 								<th field="nomor" width="100" sortable="true">NOMOR KONTRAK</th>
 								<th field="mulai_kontrak" width="100" sortable="true">TANGGAL MULAI </th>
 								<th field="selesai_kontrak" width="100" sortable="true">TANGGAL SELESAI</th>
-								<th field="keterangan" width="100" sortable="true">KETERANGAN</th>
-								<th field="nama_dokter" width="100" sortable="true">NAMA DOKTER</th>
+								<th field="keterangan" width="80" sortable="true">KETERANGAN</th>
+								<th field="nama_dokter" width="120" sortable="true">NAMA DOKTER</th>
 								<th field="sisa_kontrak" width="120" sortable="true">SISA WAKTU (Bulan)</th>
 								
 							</tr>

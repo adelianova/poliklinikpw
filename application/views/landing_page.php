@@ -197,7 +197,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<div id="map"></div>
+					<div id="map">
+						<br>
+						<iframe style="width:100%" 
+                              frameborder="0" style="border:0" height="350px" 
+                              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCu9pyeYUjfHGX9F4g6lB0dYLwa06sP-dc
+                                &q=PDAM+Malang,+Jl.+Danau+Sentani+Raya+No.100,+Madyopuro,+Kedungkandang,+Malang+City,+East+Java+65142" allowfullscreen>
+            			</iframe>
+					</div>
 				</div>
 				<div class="col-md-6" id="alamat">
 				<br>
@@ -241,11 +248,8 @@
 	<script src="<?php echo base_url();?>asset/doctor/js/custom.js"></script>
 
 	<!-- Map-JavaScript -->
-			<script type="text/javascript" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCu9pyeYUjfHGX9F4g6lB0dYLwa06sP-dc
-                                &q=PDAM+Malang,+Jl.+Danau+Sentani+Raya+No.100,+Madyopuro,+Kedungkandang,+Malang+City,+East+Java+65142">
-                                	
-            </script>        
-			<script type="text/javascript">
+			<script type="text/javascript" src="<?php echo base_url();?>asset/doctor/js/google.js"></script>        
+			<!-- <script type="text/javascript">
 				
 				 function init() {
                 var properti_peta = {
@@ -270,7 +274,7 @@
 					});
 				}*/ 
 				google.maps.event.addDomListener(window, 'load', init);
-			</script>
+			</script> -->
 	<!-- //Map-JavaScript -->
 </body>
 </html>
