@@ -9,8 +9,8 @@
 	<link rel="stylesheet" href="<?php echo base_url(); ?>asset/doctor/css/font-awesome.min.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>asset/doctor/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>asset/doctor/css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
+	<link href="<?php echo base_url(); ?>asset/css/font.css" rel='stylesheet' type='text/css'>
+	<link href="<?php echo base_url(); ?>asset/css/nine.css" rel='stylesheet' type='text/css'>
 	<script src="<?php echo base_url(); ?>asset/doctor/js/modernizr.js"></script>
 	<link rel="shortcut icon" href="<?php echo base_url().'asset/img/admin/favicon.ico';?>"/>
 	<!--[if lt IE 9]>
@@ -96,36 +96,35 @@
 		<div class="container">
 			<div class="row">
 				<h2>OUR DOCTOR</h2>
-				<h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</h4>
+				<!-- <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</h4> -->
 				<div class="col-md-2">
 					
 				</div>
 				<div class="col-md-4 col-sm-6">
 					<div class="single-about-detail clearfix">
 						<div class="about-img">
-							<img class="img-responsive" src="<?php echo base_url(); ?>asset/doctor/img/item1.jpg" alt="">
+							<img class="img-responsive" src="<?php echo base_url(); ?>asset/doctor/img/dokter2.png" alt="">
 						</div>
 						<div class="about-details">
 							<div class="pentagon-text">
-								<h1>C</h1>
+								<h1>A</h1>
 							</div>
-							<h3>Children’s specialist</h3>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+							<h3>Dr Andri Arif Nugroho</h3>
+							<p style="text-align: center;">Senin <br>Rabu <br>Jumat</p>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6">
-					<div class="single-about-detail">
+					<div class="single-about-detail clearfix">
 						<div class="about-img">
-							<img class="img-responsive" src="<?php echo base_url(); ?>asset/doctor/img/item2.jpg" alt="">
+							<img class="img-responsive" src="<?php echo base_url(); ?>asset/doctor/img/dokter1.png" alt="">
 						</div>
 						<div class="about-details">
 							<div class="pentagon-text">
-								<h1>W</h1>
+								<h1>L</h1>
 							</div>
-
-							<h3>Children’s specialist</h3>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+							<h3>Dr Luluk Retno Wulan</h3>
+							<p style="text-align: center;">Selasa <br>Kamis <br>Jumat</p>
 						</div>
 					</div>
 				</div>
@@ -184,7 +183,7 @@
 			<div class="row">
 				<div class="team-heading text-center">
 					<h2>alur berobat</h2>
-					<h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</h4>
+					<!-- <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</h4> -->
 				</div>
 				<div class="text-center">
 					<img src="<?php echo base_url(); ?>asset/doctor/img/alur.png" height="500px">
@@ -238,14 +237,26 @@
 	<!-- <script src="http://maps.google.com/maps/api/js?sensor=true"></script> -->
 	<script src="<?php echo base_url(); ?>asset/doctor/js/gmaps.js"></script>
 	<script src="<?php echo base_url(); ?>asset/doctor/js/smoothscroll.js"></script>
-	<script src="<?php echo base_url(); ?>asset/doctor/js/bootstrap.min.js"></script>
-	<script src="<?php echo base_url(); ?>asset/doctor/js/custom.js"></script>
+	<script src="<?php echo base_url();?>asset/doctor/js/bootstrap.min.js"></script>
+	<script src="<?php echo base_url();?>asset/doctor/js/custom.js"></script>
 
 	<!-- Map-JavaScript -->
-			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>        
+			<script type="text/javascript" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCu9pyeYUjfHGX9F4g6lB0dYLwa06sP-dc
+                                &q=PDAM+Malang,+Jl.+Danau+Sentani+Raya+No.100,+Madyopuro,+Kedungkandang,+Malang+City,+East+Java+65142">
+                                	
+            </script>        
 			<script type="text/javascript">
-				google.maps.event.addDomListener(window, 'load', init);
-				function init() {
+				
+				 function init() {
+                var properti_peta = {
+                    center: new google.maps.LatLng(-7.970872, 112.668341),
+                    zoom: 16,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+                var peta = new google.maps.Map(document.getElementById("map"), properti_peta);
+            	}
+			     
+				/*function init() {
 					var mapOptions = {
 						zoom: 16,
 						center: new google.maps.LatLng(-7.970872, 112.668341),
@@ -257,7 +268,8 @@
 						position: new google.maps.LatLng(-7.970872, 112.668341),
 						map: map,
 					});
-				}
+				}*/ 
+				google.maps.event.addDomListener(window, 'load', init);
 			</script>
 	<!-- //Map-JavaScript -->
 </body>

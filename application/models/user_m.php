@@ -215,6 +215,7 @@ class User_m extends MY_Model {
 					"children":[{
 						"id":111,
 						"text":"Pasien",
+						"iconCls":"icon-mini-add",
 						"url":"admin_master_pasien",
 						"akses":true
 						

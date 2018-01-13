@@ -18,7 +18,7 @@
 					<th field="penyakit" width="100" sortable="true">DIAGNOSA</th>
 					<th field="tgl_periksa" width="100" sortable="true">TANGGAL PERIKSA</th>		
 					<th field="keluhan" width="100" sortable="true">KELUHAN</th>
-					<th field="jenis_periksa" width="100" sortable="true">JENIS PERIKSA</th>
+					<th field="jenis_periksa" width="100" sortable="true">JENIS PEMERIKSAAN</th>
 				</tr>
 			</thead>
 		</table>
@@ -27,7 +27,7 @@
 			<div style="display:inline;">
 			<a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-add'" onClick="addPeriksa()">Add</a>&nbsp;
 			<a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-edit'" onClick="editPeriksa()">Edit</a>&nbsp;
-        	<a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-remove'" onClick="removePeriksa()">Remove</a>&nbsp;
+        	<!-- <a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-remove'" onClick="removePeriksa()">Remove</a>&nbsp; -->
 				 
 			</div>
 			<div style="display:inline;padding-top:-10px;">

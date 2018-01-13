@@ -2,9 +2,9 @@
 				<input type='hidden' name='edit' id='edit' value=''/>
 				<table width='350px' class='dialog-form' >
 					<tr>
-							<td class='label_form'>Jenis Periksa</td>
+							<td class='label_form'>Jenis Pemeriksaan</td>
 								<td>
-								<input name='id_jenis_periksa' id='id_jenis_periksa' class='easyui-combobox' required="true" style="padding:3px;width:218px" data-options="
+								<input name='jenis_periksa' id='id_jenis_periksa' class='easyui-combobox' required="true" style="padding:3px;width:218px" data-options="
 			                                        url:'<?php echo base_url();?>index.php/periksa/getJenis',
 			                                        valueField:'id_jenis_periksa',
 			                                        textField:'jenis_periksa'

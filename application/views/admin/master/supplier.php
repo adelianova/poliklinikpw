@@ -24,7 +24,6 @@
         	<a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-remove'" onClick="removeSupplier()">Remove</a>&nbsp;
 			<a class="easyui-linkbutton" data-options="iconCls:'icon-print'" onClick="cetakSupplier()"  style="color: #fff">CETAK PDF</a>
 			</div>
-			</div>
 			<div style="display:inline;float:right;padding-top:-10px;">
 				<input id="ssuplier" class="easyui-searchbox" style="width:250px" 
 				searcher="carisuplier" prompt="Ketik disini" menu="#muser"></input>  
@@ -32,6 +31,8 @@
 					<div name='nama'>NAMA</div>
 				</div>  
 			</div>
+		</div>
+			
 		</div>
 		<div id="dialog-m_suplier" class="easyui-dialog" style="width:410px; height:250px; padding: 10px 20px" 
 		closed="true" buttons="#dialog-buttons" iconCls="icon-user">

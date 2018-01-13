@@ -21,7 +21,7 @@
 			<div style="display:inline;">
 			<a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-add'" onClick="addResep()">Add</a>&nbsp;
 			<a href="javascript:void(0)" class="easyui-linkbutton" id="edit" data-options="iconCls:'icon-edit'" onClick="editResep()">Tampilkan</a>&nbsp;
-        	<a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-remove'" onClick="removeResep()">Remove</a>&nbsp;
+        	<!-- <a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-remove'" onClick="removeResep()">Remove</a> -->&nbsp;
 				 
 			</div>
 			<div style="display:inline;padding-top:-10px;">

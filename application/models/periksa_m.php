@@ -55,7 +55,7 @@ class Periksa_m extends MY_Model {
 		$keluhan=$this->input->post('keluhan');
 		$diagnosa=$this->input->post('diagnosa');
 		$id_status_registrasi=$this->input->post('id_status_registrasi');
-		$id_jenis_periksa=$this->input->post('id_jenis_periksa');
+		$jenis_periksa=$this->input->post('jenis_periksa');
 		if($edit==''){
 			$arr=array(
 				'kode_dokter'=>$kode_dokter,
@@ -63,7 +63,7 @@ class Periksa_m extends MY_Model {
 				'tgl_periksa'=>date('Y-m-d H:i:s'), 
 				'diagnosa'=>$diagnosa,
 				'id_status_registrasi'=>$id_status_registrasi,
-				'id_jenis_periksa'=>$id_jenis_periksa
+				'id_jenis_periksa'=>$jenis_periksa
 
 			);
 			$this->db->where("id_periksa='".$id_periksa."'");
@@ -75,7 +75,7 @@ class Periksa_m extends MY_Model {
 				'id_penyakit'=>$id_penyakit,
 				'diagnosa'=>$diagnosa,
 				'id_status_registrasi'=>$id_status_registrasi,
-				'id_jenis_periksa'=>$id_jenis_periksa
+				'id_jenis_periksa'=>$jenis_periksa
 			);
 			$this->db->where("id_periksa='".$id_periksa."'");
 			$r=$this->db->update('TBL_PERIKSA',$arr);
